@@ -1,4 +1,4 @@
-package com.hms;
+package com.hms.admin;
 
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
