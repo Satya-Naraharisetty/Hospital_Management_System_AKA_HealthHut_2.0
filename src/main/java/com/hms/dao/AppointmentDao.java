@@ -18,7 +18,6 @@ public class AppointmentDao {
         boolean f = false;
 
         try {
-
             String sql = "insert into appointment(UserId, Full_Name, Gender, Age, appoint_date, Email, PhNo, Disease, Doctor_Id, Address, Status) values(?,?,?,?,?,?,?,?,?,?,?)";
             PreparedStatement ps = conn.prepareStatement(sql);
             ps.setInt(1, ap.getUserId());
